@@ -31,8 +31,8 @@ public class Employee extends Person {
     }
     
     public void print() {
-        System.out.printf("Hello! My name is %s. I am %d y.o. %s employee\n", this.name, this.age, this.sex);
-        System.out.printf("Also, my salary is %d, my experience is %d. Education? %b. Happy? %b\n", this.salary, this.experience, this.isEducated, this.isHappy);
+        System.out.printf("Hello! My Name is %s. I am %d y.o. %s employee\n", this.name, this.age, this.sex);
+        System.out.printf("Also, my Salary is %d, my experience is %d. Education? %b. Happy? %b\n", this.salary, this.experience, this.isEducated, this.isHappy);
     }
     
 }
