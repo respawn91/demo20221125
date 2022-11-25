@@ -1,14 +1,15 @@
 public class Finder {
 
-    public int findMaximumElement(int[] input) {
+    public int findMaximumElement(int[] array) {
         
         // Please help!!! 
         // Ready!!!
-        int maxElement = input[0];
+        // I am big boss here!!!!
+        int maxElement = array[0];
 
-      for (int i = 0; i < input.length; i++) {
-            if (maxElement < input[i]) {
-                maxElement = input[i];
+      for (int i = 0; i < array.length; i++) {
+            if (maxElement < array[i]) {
+                maxElement = array[i];
             }
         }
 
