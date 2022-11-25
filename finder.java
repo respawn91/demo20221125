@@ -3,7 +3,8 @@ public class Finder {
     public int findMaximumElement(int[] input) {
         
         // Please help!!! 
-        int maxElement = ??;
+        // Ready!!!
+        int maxElement = input[0];
 
       for (int i = 0; i < input.length; i++) {
             if (maxElement < input[i]) {
